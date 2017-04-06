@@ -1,0 +1,25 @@
+{
+  "name": "test-pm2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "server": "pm2 start ./bin/www.js -i 0",
+    "test": "node ./test/test.js",
+    "stop": "pm2 kill",
+    "status": "pm2 status"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "pm2": "^2.4.4",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "axios": "^0.16.0"
+  }
+}
