@@ -17,3 +17,5 @@
 7. 结束所有进程： `npm run stop`
 
 ## 运行结果：
+![image](https://github.com/green0511/test-pm2/raw/master/imgs/status.jpg)
+![image](https://github.com/green0511/test-pm2/raw/master/imgs/result.jpg)
